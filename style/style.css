@@ -2,12 +2,10 @@ body {
 	background: #1e272e;
 }
 
-
-
 /*These items are for the profile List item*/
 
 li.profile-list-item {
-    margin: 25px 30px;
+    margin: 20px 50px;
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -23,9 +21,17 @@ li.profile-list-item {
     z-index:1;
 }
 
+.profile-information-container {
+    font-family: 'Roboto', sans-serif;
+}
+
 .profile-information-container h1 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
+}
+
+.profile-information-container p {
+    font-weight: 300;
+    font-size: 18px;
 }
 
 .profile-img {
@@ -33,6 +39,7 @@ li.profile-list-item {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .profile-background-img {
@@ -44,6 +51,7 @@ li.profile-list-item {
     object-fit: cover;
     -webkit-filter: blur(5px);
   	filter: blur(5px);
+
 }
 
 .profile-img-container {

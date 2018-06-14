@@ -12,8 +12,9 @@ class ProfileList extends React.Component {
 
 	filterProfiles(a,b){
 
-		const filterA = a.position.toUpperCase();
-	    const filterB = b.position.toUpperCase();
+		var key = this.props.filter
+		const filterA = a[key].toUpperCase();
+	    const filterB = b[key].toUpperCase();
 
 	    let comparison = 0;
 

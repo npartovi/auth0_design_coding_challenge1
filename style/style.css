@@ -70,12 +70,49 @@ li.profile-list-item {
 /*This is for the navbar*/
 
 img.nav-bar-logo {
-    width: 50px;
+    width: 45px;
     height: 50px;
+    margin-top: 25px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.filter-container h1 {
+    color: white;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/*This is for media queries*/
+
+@media(max-width: 767px){
+    li.profile-list-item {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .profile-information-container{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .profile-background-img{
+        margin:0px;
+    }
 }

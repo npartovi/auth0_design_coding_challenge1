@@ -38,7 +38,10 @@ class Navbar extends React.Component {
 		return(
 			<nav>
 				<img className="nav-bar-logo" src="https://i.imgur.com/qgkP0co.png"></img>
-				{this.renderFilterDropdown()}
+				<div className="filter-container">
+					<h1>Order By</h1>
+					{this.renderFilterDropdown()}
+				</div>
 			</nav>
 		)
 	}

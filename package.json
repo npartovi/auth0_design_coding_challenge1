@@ -4,9 +4,11 @@
   "homepage": "https://npartovi.github.io/auth0_design_coding_challenge1/",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "postinstall": "webpack"
+  },
+  "engines": {
+    "node": "8.9.1",
+    "npm": "5.7.1"
   },
   "author": "",
   "license": "ISC",

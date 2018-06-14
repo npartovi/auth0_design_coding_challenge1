@@ -25,7 +25,7 @@ class Navbar extends React.Component {
 	renderFilterDropdown(){
 		return(
 			<div className="dropdown">
-			  <button className="dropbtn">Select...</button>
+			  <button className="dropbtn">Select...</button><i class="fas fa-caret-down"></i>
 			  <div className="dropdown-content">
 			  	<ul>
 			    	<li onClick={this.updateFilterState} value="">Default</li>
@@ -42,7 +42,7 @@ class Navbar extends React.Component {
 			<nav>
 				<img className="nav-bar-logo" src="https://i.imgur.com/qgkP0co.png"></img>
 				<div className="filter-container">
-					<h1>Order By</h1>
+					<h1>Order by</h1>
 					{this.renderFilterDropdown()}
 				</div>
 			</nav>

@@ -47,6 +47,8 @@ li.profile-list-item {
     height: 150px;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: -42px;
 }
 
 .profile-background-img {
@@ -121,6 +123,8 @@ nav {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 99;
     color: white;
+    font-family: Roboto;
+    cursor: pointer;
 }
 
 .dropdown-content li {
@@ -130,18 +134,16 @@ nav {
     display: block;
 }
 
-.dropdown-content li:hover {background-color: white}
+.dropdown-content li:hover {background-color: #4e5052}
 
 .dropdown:hover .dropdown-content {
     display: block;
+
 }
 
 .dropdown:hover .dropbtn {
     background-color: #1e272e;
 }
-
-
-
 
 /*This is for media queries*/
 
@@ -170,5 +172,7 @@ nav {
     .profile-img {
     width: 90px;
     height: 90px;
+    position: relative;
+    top: 0;
 }
 }

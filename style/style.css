@@ -40,8 +40,8 @@ li.profile-list-item {
 
 .profile-img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -90,6 +90,7 @@ nav {
 .filter-container {
     display: flex;
     flex-direction: row;
+    align-items:center;
 }
 
 
@@ -103,6 +104,7 @@ nav {
         flex-direction: column-reverse;
         padding: 0px;
         align-items: center;
+        justify-content: center;
     }
 
     .profile-information-container{

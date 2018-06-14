@@ -59,3 +59,13 @@ li.profile-list-item {
     align-items: center;
     flex-direction: column;
 }
+
+
+
+
+/*This is for the navbar*/
+
+img.nav-bar-logo {
+    width: 50px;
+    height: 50px;
+}

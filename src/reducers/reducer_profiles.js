@@ -1,13 +1,12 @@
-export default function(){
+export default ()=> {
 	return[
 		{position: "Engineer", name: "Nima Partovi", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350"},
 		{position: "Astronaut", name: "Nick Welch", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkK7i6F2ZDsTmSvE3fh8KtkycZpLZZv27N_0_e4SVuq5hc-MaE"},
 		{position: "Professional Gamer", name: "Yujie Zhu", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
-		{position: "Engineer", name: "Woody Stevens", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
-		{position: "Astronaut", name: "Michael Pompili", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
-		{position: "Teacher", name: "Danny Peng", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
-		{position: "Teacher", name: "Tiffany Shiu", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
-		{position: "Professional Gamer", name: "Michael Valeriani", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
-
+		{position: "Engineer", name: "Woody Stevens", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "https://texturex.com/wp-content/uploads/2018/03/TextureX-Red-Brick-Wall-Free-Stock-Photo-Texture-1.jpg"},
+		{position: "Astronaut", name: "Michael Pompili", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "http://m.rgbimg.com/cache1A9p3H/users/x/xy/xymonau/600/px5Gamo.jpg"},
+		{position: "Teacher", name: "Danny Peng", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "http://transitionsfv.org/wp-content/uploads/nature-background-hd-wallpapers-pulse-and-images.jpg"},
+		{position: "Teacher", name: "Tiffany Shiu", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "http://transitionsfv.org/wp-content/uploads/nature-background-images-qygjxz-extraordinary.jpg"},
+		{position: "Professional Gamer", name: "Michael Valeriani", profile_pic: "https://d1qq9lwf5ow8iz.cloudfront.net/live-images-1/ImageDetail_c2d90cef-6562-4a67-ae77-6235c6929154_Medium", backgroundImg: "http://transitionsfv.org/wp-content/uploads/these-are-our-nature-backgrounds-including-some-beaches-and-falls-unbelievable-background-images.jpg"},
 	];
 }

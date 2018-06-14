@@ -24,8 +24,8 @@ class Navbar extends React.Component {
 
 	renderFilterDropdown(){
 		return(
-			<div className="custom-select">
-				<select onChange={this.updateFilterState}>
+			<div className="filter-dropdown-container">
+				<select className="filter-dropdown" onChange={this.updateFilterState}>
 					<option selected="selected" value="">Default</option>
 					<option value="position">Position</option>
 					<option value="name">Name</option>

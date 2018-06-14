@@ -14,7 +14,7 @@ class Navbar extends React.Component {
 
 	updateFilterState(e){
 		e.preventDefault();
-		this.setState({filter: e.target.value});
+		this.setState({filter: e.currentTarget.getAttribute("value")});
 	}
 
 	componentDidUpdate(){
@@ -24,12 +24,15 @@ class Navbar extends React.Component {
 
 	renderFilterDropdown(){
 		return(
-			<div className="filter-dropdown-container">
-				<select className="filter-dropdown" onChange={this.updateFilterState}>
-					<option selected="selected" value="">Default</option>
-					<option value="position">Position</option>
-					<option value="name">Name</option>
-				</select>
+			<div className="dropdown">
+			  <button className="dropbtn">Select...</button>
+			  <div className="dropdown-content">
+			  	<ul>
+			    	<li onClick={this.updateFilterState} value="">Default</li>
+			    	<li onClick={this.updateFilterState} value="position">Position</li>
+			    	<li onClick={this.updateFilterState} value="name">Name</li>
+			    </ul>
+			  </div>
 			</div>
 		)
 	}

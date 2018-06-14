@@ -1,12 +1,36 @@
 import React from 'react';
 import ProfileListItem from './profile_list_item';
+import orderBy from 'lodash';
 
 class ProfileList extends React.Component {
 	constructor(props){
 		super(props)
+
+		this.filterProfiles = this.filterProfiles.bind(this)
+		this.renderProfiles = this.renderProfiles.bind(this)
+	}
+
+	filterProfiles(a,b){
+
+		const filterA = a.position.toUpperCase();
+	    const filterB = b.position.toUpperCase();
+
+	    let comparison = 0;
+
+	  	if (filterA > filterB) {
+	    	comparison = 1;
+	  	} else if (filterA < filterB) {
+	    	comparison = -1;
+	  	}
+	  	return comparison;
 	}
 
 	renderProfiles(){
+		
+		if(this.props.filter){
+			this.props.profiles.sort(this.filterProfiles)
+		}
+
 		return this.props.profiles.map((profiles, idx) => {
 			return(
 				<ProfileListItem 
@@ -21,10 +45,10 @@ class ProfileList extends React.Component {
 	}
 
 	render(){
-		console.log(this.props.profiles)
 		return (
 			<ul className="profile-list">
 				{this.renderProfiles()}
+				}
 			</ul>
 		)
 	}

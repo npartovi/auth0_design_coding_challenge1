@@ -1,19 +1,32 @@
-import React from 'react'
+import React from 'react';
+
 
 
 class Navbar extends React.Component {
 	constructor(props){
 		super(props)
-
 		this.state = {
-			filter: "position"
-		}
+			filter: ""
+		};
+
+		this.updateFilterState = this.updateFilterState.bind(this);
 	}
+
+	updateFilterState(e){
+		e.preventDefault();
+		this.setState({filter: e.target.value});
+	}
+
+	componentDidUpdate(){
+		this.props.selectFilter(this.state.filter);
+	}
+
 
 	renderFilterDropdown(){
 		return(
 			<div>
-				<select>
+				<select onChange={this.updateFilterState}>
+					<option selected="true" disabled="disabled">Select</option>
 					<option value="position">Position</option>
 					<option value="name">Name</option>
 				</select>
@@ -32,3 +45,4 @@ class Navbar extends React.Component {
 }
 
 export default Navbar
+

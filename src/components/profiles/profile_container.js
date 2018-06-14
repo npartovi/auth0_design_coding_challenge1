@@ -3,7 +3,9 @@ import { connect } from 'react-redux';
 import ProfileList from './profile';
 
 const mapStateToProps = (state) => ({
-	profiles: state.profiles
+	profiles: state.profiles,
+	filter: state.filter
+
 
 });
 

@@ -25,7 +25,7 @@ class Navbar extends React.Component {
 	renderFilterDropdown(){
 		return(
 			<div className="dropdown">
-			  <button className="dropbtn">Select...</button><i class="fas fa-caret-down"></i>
+			  <button className="dropbtn">Select...</button><i className="fas fa-caret-down"></i>
 			  <div className="dropdown-content">
 			  	<ul>
 			    	<li onClick={this.updateFilterState} value="">Default</li>

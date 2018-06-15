@@ -1,6 +1,5 @@
 import React from 'react';
 import ProfileListItem from './profile_list_item';
-import orderBy from 'lodash';
 
 class ProfileList extends React.Component {
 	constructor(props){

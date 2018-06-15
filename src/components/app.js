@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ProfileContainer from './profiles/profile_container';
 import NavbarContainer from './navbar/navbar_container';
 
-export default class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="profile-list-container">
@@ -12,3 +12,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default App

@@ -49,7 +49,6 @@ class ProfileList extends React.Component {
 		return (
 			<ul className="profile-list">
 				{this.renderProfiles()}
-				}
 			</ul>
 		)
 	}
